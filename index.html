@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลส่วนตัว - Personal Profile</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .profile-card {
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            padding: 30px;
+            text-align: center;
+            max-width: 400px;
+            width: 100%;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #4CAF50;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 24px;
+            margin: 10px 0;
+            color: #2c3e50;
+        }
+        p {
+            font-size: 16px;
+            color: #7f8c8d;
+            line-height: 1.6;
+            margin: 8px 0;
+        }
+        .btn-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 25px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background-color 0.3s;
+            font-weight: bold;
+        }
+        .btn-link:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- ดึงรูปภาพชื่อ images.jpg มาแสดงผล -->
+        <img src="images.jpg" alt="รูปภาพโปรไฟล์ของคุณ" class="profile-img">
+        
+        <!-- ข้อมูลส่วนตัว (สามารถเปลี่ยนข้อความตรงนี้ได้ตามใจชอบเลยครับ) -->
+        <h1>ชื่อ-นามสกุล นาย พงศกร พยัคฆศิริ</h1>
+        <p><strong>ความสนใจ:</strong> Web Technology & Private Server</p>
+        <p>ยินดีต้อนรับเข้าสู่หน้าเว็บไซต์ส่วนตัว เว็บนี้เปิดใช้งานและทดสอบระบบอยู่บน Private Server ของฉันเอง</p>
+        
+        <!-- ลิงก์เชื่อมโยงไปยังเว็บภายนอก -->
+        <a href="https://www.google.com" target="_blank" class="btn-link">คลิกเพื่อเยี่ยมชมเว็บไซต์</a>
+    </div>
+
+</body>
+</html>
